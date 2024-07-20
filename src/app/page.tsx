@@ -30,9 +30,11 @@ export default function Home() {
                 趣味
               </div>
             </Link>
-            <div className="flex justify-center items-center text-center box-border h-20 w-20 rounded-full shadow-xl bg-red-300 hover:bg-red-200">
-              お仕事
-            </div>
+            <Link href="/work">
+              <div className="flex justify-center items-center text-center box-border h-20 w-20 rounded-full shadow-xl bg-red-300 hover:bg-red-200">
+                お仕事
+              </div>
+            </Link>
         </div>
       </div>
     </div>
